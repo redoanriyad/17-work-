@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fullwebsite{
+    width: 1200px;
+    margin: auto;
+}
+.header{
+    background: #000;
+}
+.header img{
+    padding-top: 10px;
+    width: 80px;
+    float: left;
+}
+.menu ul{}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    padding: 0 20px;
+    font-size: 17px;
+    line-height: 60px;
+}
+.menu ul li a:hover{
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+/*  DropDown Mneu  */
+.menu ul li{
+    position: relative;
+}
+.menu ul li ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 300px;
+    background: black;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+    transform: scaleY(0);
+    transform-origin: top center;
+}
+.menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+.banner{
+    padding: 100px;
+    background-image: url(./bgimg.jpg);
+}
+.banner h1{
+    font-size: 50px;
+}
+.banner .btn1:hover{
+    color: black;
+    background: aliceblue;
+}
+.banner .btn2:hover{
+    color: aliceblue;
+    background: black;
+}
+.about{
+    background: #8fb864;
+    padding: 20px;
+}
+.about h2{
+    color: aliceblue;
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.about p{
+    color: aliceblue;
+    margin-left: 50px;
+}
+.about img{
+    width: 60%;
+    margin-left: 80px;
+}
+.what{
+    padding: 80px;
+}
+.what h1{
+    color: aliceblue;
+    font-size: 50px;
+    text-decoration: underline;
+    padding-top: 30px;
+}
+.what h2{
+    color: aliceblue;
+    padding-top: 10px;
+}
+.what p{
+    padding-bottom: 40px;
+    color: aliceblue;
+}
+.what .col-4{
+    padding-top: 15px;
+    width: 300px;
+    margin: auto;
+    background: aliceblue;
+    border-radius: 15px;
+}
+.what .col-4 span{
+    font-size: 40px;
+    color: rgb(14, 158, 158);
+}
+.what .col-4 h3{
+    padding-top: 10px;
+    text-align: left;
+}
+.what .col-4 p{
+    padding-bottom: 15px;
+    color: gray;
+    text-align: left;
+}
+.check{
+    padding: 100px;
+    background: #8fb864;
+}
+.check h1{
+    font-size: 40px;
+}
+.check p{
+    padding-bottom: 30px;
+}
+.check .col-6{
+    text-align: center;
+}
+.check .col-6 img{
+    width: 100%;
+    height: auto;
+    padding-right: 15px;
+}
+.check .col-6 h5{
+    text-align: center;
+    color: rgb(22, 62, 156);
+}
+.check .col-6 h6{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight:bold;
+}
+.check .col-3 img{
+    width: 95%;
+    padding-top: 30px;
+}
+.myteam{
+    padding: 80px;
+    background: rgb(97, 197, 159);
+}
+.myteam h1{
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+}
+.myteam img{
+    width: 100%;
+    padding-top: 30px;
+}
+.myteam ul{
+    text-align: center;
+}
+.myteam ul li{
+    display: inline-block;
+    
+}
+.myteam ul li a{
+    display: block;
+    color: aliceblue;
+    font-size: 30px;
+}
+.myteam ul li a:hover{
+    color: grey;
+}
+.work{
+    padding: 60px;
+}
+.work h1{
+    padding-top: 80px;
+}
+.work p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.work .btn3:hover{
+    background: grey;
+}
